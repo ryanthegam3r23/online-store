@@ -21,7 +21,7 @@ function Catalog() {
     console.log(products);
 
     return (
-        <div className='main-content'>
+        <div className='main-page'>
             <h3>We have {products.length} new products for you!</h3>
             <br/>
             <div className="catalog-items">

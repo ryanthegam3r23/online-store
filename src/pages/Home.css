@@ -1,0 +1,17 @@
+.home h1{
+    color: darkcyan;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+.home h2{
+    color: darkcyan;
+    text-align: left;
+}
+
+.home h5{
+    color: #333;
+    text-align: left;
+    
+}

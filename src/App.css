@@ -3,8 +3,8 @@
   text-align: center;
 }
 
-.main-content {
-  min-height: calc(100vh - 136px);
+.page {
+  min-height: calc(100vh - 136px)
 }
 
 
