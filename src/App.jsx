@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Cart from './pages/Cart';
 import GlobalProvider from './state/GlobalProvider'
+import Payment from './pages/Payment'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/home' element={<Home/>}></Route>
           <Route path='/' element={<Home/>}></Route>
           <Route path='/cart' element={<Cart/>}></Route>
+          <Route path='/payment' element={<Payment/>}></Route>
         </Routes>
 
         <Footer/>

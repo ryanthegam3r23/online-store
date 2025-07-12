@@ -11,3 +11,34 @@
 .cart .parent .side{
     flex: 1;
 }
+
+.cart h3 {
+
+}
+
+.cart .side h4 {
+    margin: 20px 0;
+}
+
+.cart .prod-cart {
+    display: flex;
+    align-items: center;
+    border: 1px solid #afb2b4;
+    padding: 5px 10px;
+    margin: 12px;
+    border-radius: 4px;
+    background-color: #eef0f2;
+}
+
+.cart .prod-cart img{
+    height: 80px;
+    max-width: 90px;
+}
+
+.cart .prod-cart h6{
+    flex: 4;
+}
+
+.cart .prod-cart h6{
+    flex: 1;
+}
