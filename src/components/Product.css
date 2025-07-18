@@ -5,7 +5,7 @@
     background-color: white;
     display: inline-block;
     width: 250px;
-    height: autopx;
+    height: auto;
     padding: 5px 0px;
 }
 .product h3{
@@ -32,4 +32,9 @@
 
 .add-button {
     margin-bottom: 5px;
+}
+.product .controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

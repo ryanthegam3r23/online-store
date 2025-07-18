@@ -1,7 +1,56 @@
-.payment {
-    background-color: #f4f5f6;
+.wrapper {
+  width: 100%;
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 20px;
 }
 
-.payment h1{
-    color: darkcyan;
+.checkout-form {
+  background: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+
+.checkout-form h2, .checkout-form h3 {
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.flex-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  min-width: 220px;
+}
+
+.input-box {
+  margin-bottom: 18px;
+}
+
+.input-box span {
+  display: block;
+  color: #555;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.card-icons i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #666;
+}
+
+

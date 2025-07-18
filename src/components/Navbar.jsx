@@ -29,12 +29,12 @@ function Navbar() {
                         </li>
                     </ul>
                     <form className="d-flex" role="search">
-                        <span className='btn btn-outline-light btn-user'>
+                        <Link className='btn btn-outline-light btn-user' to="/login">
                             {user.name}
-                        </span>
+                        </Link>
 
                         <Link className="btn btn-outline-light" to="/cart">
-                             <span class="badge text-bg-primary">{cart.length}</span>
+                             <span className="badge text-bg-primary">{cart.length}</span>
                             View Cart
                         </Link>
                     </form>
