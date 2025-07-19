@@ -5,13 +5,15 @@
     text-align: center;
 }
 
-.home h2{
-    color: darkcyan;
-    text-align: left;
+.home .img-1{
+    width: 100%;
 }
 
 .home h5{
     color: #333;
-    text-align: left;
-    
+    text-align: center;
+    padding: 25px;
+}
+.home .img-2{
+    width: 25%;
 }

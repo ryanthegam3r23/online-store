@@ -22,7 +22,7 @@ function Login() {
                 </Link>
                 <p>
                     Don't have an account?
-                    <a href="">Sign up</a>
+                    <a href=""> Sign up </a>
                 </p>
             </div>
         </div>

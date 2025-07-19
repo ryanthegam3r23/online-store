@@ -6,7 +6,7 @@
 }
 
 .checkout-form {
-  background: #fff;
+  background: #e6e6e6;
   border-radius: 8px;
   padding: 30px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -47,10 +47,5 @@
   font-size: 14px;
 }
 
-.card-icons i {
-  font-size: 24px;
-  margin-right: 10px;
-  color: #666;
-}
 
 

@@ -1,3 +1,8 @@
+.cart{
+    padding-top: 10px;
+    background-color: #edf2f1;
+}
+
 .cart .parent{
     display: flex;
     margin-top: 20px;
@@ -5,15 +10,25 @@
 
 .cart .parent .prods{
     flex: 3;
-    
+    border: 1px solid #6a6a6a;
+    border-radius: 6px;
+    margin: 0 20px;
+    background-color: white;
 }
 
 .cart .parent .side{
     flex: 1;
+    border: 1px solid #6a6a6a;
+    border-radius: 6px;
+    margin-right: 5px;
+    padding-bottom: 20px;
+    background-color: #f4f9f8;
 }
 
 .cart h3 {
-
+    color: darkcyan;
+    padding-top: 10px;
+    font-weight: 500;
 }
 
 .cart .side h4 {

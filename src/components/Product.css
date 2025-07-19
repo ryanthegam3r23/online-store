@@ -18,10 +18,12 @@
     align-items: center;
 }
 
-.prices {
+.product .prices {
+    width: 100%;
     margin-bottom: 5px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .product img{
