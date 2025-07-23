@@ -9,6 +9,7 @@ import Cart from './pages/Cart';
 import GlobalProvider from './state/GlobalProvider'
 import Payment from './pages/Payment'
 import Login from './pages/Login'
+import Admin from './pages/admin'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/cart' element={<Cart/>}></Route>
           <Route path='/payment' element={<Payment/>}></Route>
           <Route path='/login' element={<Login/>}></Route>
+          <Route path='/admin' element={<Admin/>}></Route>
         </Routes>
 
         <Footer/>

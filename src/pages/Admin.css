@@ -1,13 +1,13 @@
-.admin {
+.login {
     background-color: #ebeeef;
 }
 
-.admin h1{
+.login h1{
     color:darkcyan;
     padding-top: 20px;
 }
 
-.admin .form {
+.login .form {
     max-width: 450px;
     padding: 20px;    
     margin-top: 50px;

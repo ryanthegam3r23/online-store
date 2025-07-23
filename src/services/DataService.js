@@ -1,5 +1,5 @@
 
-
+import axios from "axios";
 const catalog = [
     {
         "title":"Banana",
@@ -75,8 +75,12 @@ const catalog = [
 ]
 
 class DataService{
-    getProducts(){
-        return catalog;
+    async getProducts(){
+        //if you need to start the front end without the back end uncomment the line below
+        //return catalog;
+
+        let response = await axios.get("http://127.0.0.1:8000/api/products");
+        return response.data;
     }
 }
 
