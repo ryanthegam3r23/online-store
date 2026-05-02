@@ -1,15 +1,13 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import Catalog from './pages/Catalog'
-import About from './pages/About'
-import Home from './pages/Home'
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Cart from './pages/Cart';
-import GlobalProvider from './state/GlobalProvider'
-import Payment from './pages/Payment'
-import Login from './pages/Login'
-import Admin from './pages/Admin'
+import Catalog from './pages/Catalog.jsx'
+import About from './pages/About.jsx'
+import Home from './pages/Home.jsx'
+import Cart from './pages/Cart.jsx'
+import Payment from './pages/Payment.jsx'
+import Login from './pages/Login.jsx'
+import Admin from './pages/Admin.jsx'
 
 function App() {
   return (
