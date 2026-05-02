@@ -8,6 +8,8 @@ import Cart from './pages/Cart.jsx'
 import Payment from './pages/Payment.jsx'
 import Login from './pages/Login.jsx'
 import Admin from './pages/Admin.jsx'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import GlobalProvider from './state/GlobalProvider'
 
 function App() {
   return (
