@@ -2,14 +2,14 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Catalog from './pages/Catalog'
-import About from './pages/about'
+import About from './pages/About'
 import Home from './pages/Home'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Cart from './pages/Cart';
 import GlobalProvider from './state/GlobalProvider'
 import Payment from './pages/Payment'
 import Login from './pages/Login'
-import Admin from './pages/admin'
+import Admin from './pages/Admin'
 
 function App() {
   return (
